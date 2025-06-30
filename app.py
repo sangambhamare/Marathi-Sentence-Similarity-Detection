@@ -2,7 +2,7 @@ import streamlit as st
 from sentence_transformers import SentenceTransformer, util
 
 st.title("Sentence Similarit Detection (मराठी वाक्य साम्य तपासणी)")
-model = SentenceTransformer("sangambhamare/fine-tuned-l3cube")
+model = SentenceTransformer("sangambhamare/MarathiSentenceSimilarity")
 
 sentence1 = st.text_input("पहिलं वाक्य:")
 sentence2 = st.text_input("दुसरं वाक्य:")
